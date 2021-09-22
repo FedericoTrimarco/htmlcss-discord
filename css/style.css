@@ -1,0 +1,77 @@
+            /* GENERAL STYLE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* UTILITIES */
+.container{
+    height: 830px;
+}
+.contained{
+    width: 70%;
+    margin: auto;
+    height: 100px;
+}
+.link-underline:hover{
+    text-decoration: underline;
+}
+.button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+.button.small{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+/* HEADER */
+header{
+    height: 100px;
+    background-color: #255ee9;
+}
+header .logo{
+    width: 30%;
+    height: 100px;
+    line-height: 100px;
+    display: inline-block;
+}
+.logo-img{
+    width: 150px;
+    vertical-align: middle;
+}
+header .nav-menu{
+    float: right;
+    width: 70%;
+    line-height: 100px;
+}
+header .nav-menu li{
+    display: inline-block;
+    margin-right: 70px;
+}
+header .nav-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.nav-menu{
+    position: relative;
+}
+.button.small a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.container.jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
