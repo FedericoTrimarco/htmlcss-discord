@@ -13,12 +13,19 @@
     padding-bottom: 40px;
 }
 .container{
-    height: 830px;
+    height: 800px;
+    position: relative;
 }
 .contained{
-    width: 70%;
+    width: 60%;
     margin: auto;
-    height: 100px;
+    position: relative;
+}
+.vertical-cent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .link-underline:hover{
     text-decoration: underline;
@@ -34,6 +41,7 @@
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    font-size: 20px;
 }
 .btn-black{
     color: #fff;
@@ -76,7 +84,7 @@ header .nav-menu li{
 header .nav-menu li a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
 }
 .nav-menu{
     position: relative;
@@ -85,7 +93,7 @@ header .nav-menu li a{
 .container.jumbo{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    position: relative;
+    background-position: center;
 }
 .explain h1{
     font-size: 50px;
@@ -94,13 +102,29 @@ header .nav-menu li a{
     color: #fff;
     width: 30%;
     margin: auto;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+    text-align: center; 
 }
 .explain p{
     line-height: 40px;
     font-size: 20px;
+}
+
+.item-text{
+    float: right;
+    width: 30%;
+    padding-top: 30px;
+}
+.item-text h1{
+    font-size: 60px;
+}
+.item-text p{
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.item-img{
+    display: inline-block;
+    width: 70%;
+    text-align: center;
 }
