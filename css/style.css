@@ -12,6 +12,9 @@
 .font-sz25{
     font-size: 25px;
 }
+.font-sz30{
+    font-size: 30px;
+}
 .float-r{
     float: right;
 }
@@ -26,6 +29,9 @@
 }
 .pd-bottom40{
     padding-bottom: 40px;
+}
+.pd-bottom20{
+    padding-bottom: 20px;
 }
 .container{
     height: 800px;
@@ -155,12 +161,16 @@ header .nav-menu li a{
     text-align: center;
 }
 .red{
-    width: 40%;
+    width: 36%;
     border: 1px solid red;
     display: inline-block;
 }
+.red img{
+    vertical-align: middle;
+    width: 30px;
+}
 .blue{
-    width: 15%;
+    width: 16%;
     color: white;
     float: right;
     border: 1px solid blue;
@@ -168,4 +178,9 @@ header .nav-menu li a{
 }
 .blue li{
     list-style: none;
+    line-height: 30px;
+}
+
+.social i{
+    margin-right: 15px;
 }
