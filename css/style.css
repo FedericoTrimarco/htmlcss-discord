@@ -6,27 +6,40 @@
     font-family: sans-serif;
 }
 /* UTILITIES */
+.font-sz50{
+    font-size: 50px;
+}
+.font-sz25{
+    font-size: 25px;
+}
 .float-r{
     float: right;
 }
 .bg-grey{
     background-color: #f6f6f6;
 }
-.pd-top{
-    padding-top: 50px;
+.bg-black{
+    background-color: #23272a;
 }
-.pd-bottom{
+.pd-top100{
+    padding-top: 100px;
+}
+.pd-bottom40{
     padding-bottom: 40px;
 }
 .container{
     height: 800px;
     position: relative;
 }
+.container-big{
+    height: 1300px;
+    position: relative;
+}
 .contained{
-    width: 60%;
+    width: 50%;
     margin: auto;
     position: relative;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 .vertical-cent{
     position: absolute;
@@ -38,17 +51,20 @@
     text-decoration: underline;
 }
 .button{
-    padding: 10px 15px;
     border-radius: 50px;
     border: none;
     font-weight: bold;
 }
 .btn-small{
-    margin-left: 150px;
+    padding: 10px 15px;
 }
 .btn-black{
     color: #fff;
     background-color: #000;
+}
+.btn-lightblue{
+    color: #fff;
+    background-color: #8ea1e1;
 }
 .btn-big{
     margin: 0 15px;
@@ -66,7 +82,7 @@ header{
     background-color: #255ee9;
 }
 header .logo{
-    width: 30%;
+    width: 25%;
     height: 100px;
     line-height: 100px;
     display: inline-block;
@@ -77,7 +93,7 @@ header .logo{
 }
 header .nav-menu{
     float: right;
-    width: 70%;
+    width: 75%;
     line-height: 100px;
 }
 header .nav-menu li{
@@ -98,9 +114,7 @@ header .nav-menu li a{
     background-size: cover;
     background-position: center;
 }
-.explain h1{
-    font-size: 50px;
-}
+
 .explain{
     color: #fff;
     width: 30%;
@@ -109,26 +123,49 @@ header .nav-menu li a{
 }
 .explain p{
     line-height: 40px;
-    font-size: 20px;
 }
-/* FIRST CONTAINER */
+/*CONTAINER */
 .item-text{
-    width: 30%;
+    width: 40%;
     padding-top: 30px;
-    border: 1px solid black;
-}
-.item-text h1{
-    font-size: 60px;
 }
 .item-text p{
     padding-top: 30px;
-    line-height: 30px;
-    font-size: 25px;
-    font-weight: 500;
+    line-height: 35px;
 }
 .item-img{
     display: inline-block;
-    width: 70%;
+    width: 60%;
+}
+.item-bottom-text{
     text-align: center;
-    border: 1px solid black;
+}
+.item-bottom-img img{
+    width: 100%;
+}
+.start{
+    width: 40%;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    text-align: center;
+    line-height: 70px;
+    margin: auto;
+}
+.start-button{
+    text-align: center;
+}
+.red{
+    width: 40%;
+    border: 1px solid red;
+    display: inline-block;
+}
+.blue{
+    width: 15%;
+    color: white;
+    float: right;
+    border: 1px solid blue;
+    text-align: center;
+}
+.blue li{
+    list-style: none;
 }
