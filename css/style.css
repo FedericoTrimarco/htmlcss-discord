@@ -6,6 +6,12 @@
     font-family: sans-serif;
 }
 /* UTILITIES */
+.float-r{
+    float: right;
+}
+.bg-grey{
+    background-color: #f6f6f6;
+}
 .pd-top{
     padding-top: 50px;
 }
@@ -20,6 +26,7 @@
     width: 60%;
     margin: auto;
     position: relative;
+    border: 1px solid black;
 }
 .vertical-cent{
     position: absolute;
@@ -37,11 +44,7 @@
     font-weight: bold;
 }
 .btn-small{
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
+    margin-left: 150px;
 }
 .btn-black{
     color: #fff;
@@ -89,7 +92,7 @@ header .nav-menu li a{
 .nav-menu{
     position: relative;
 }
-/* FIRST CONTAINER */
+/* TOP CONTAINER */
 .container.jumbo{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -108,11 +111,11 @@ header .nav-menu li a{
     line-height: 40px;
     font-size: 20px;
 }
-
+/* FIRST CONTAINER */
 .item-text{
-    float: right;
     width: 30%;
     padding-top: 30px;
+    border: 1px solid black;
 }
 .item-text h1{
     font-size: 60px;
@@ -127,4 +130,5 @@ header .nav-menu li a{
     display: inline-block;
     width: 70%;
     text-align: center;
+    border: 1px solid black;
 }
