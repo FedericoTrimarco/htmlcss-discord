@@ -6,6 +6,9 @@
     font-family: sans-serif;
 }
 /* UTILITIES */
+.color-violet{
+    color: #6579bd;
+}
 .font-sz50{
     font-size: 50px;
 }
@@ -43,9 +46,8 @@
 }
 .contained{
     width: 50%;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
-    border: 1px solid white;
 }
 .vertical-cent{
     position: absolute;
@@ -160,27 +162,37 @@ header .nav-menu li a{
 .start-button{
     text-align: center;
 }
-.red{
+.footer-title{
     width: 36%;
-    border: 1px solid red;
     display: inline-block;
+    color:white;
 }
-.red img{
+.footer-title img{
     vertical-align: middle;
     width: 30px;
 }
-.blue{
+.info-list{
     width: 16%;
     color: white;
     float: right;
-    border: 1px solid blue;
-    text-align: center;
+    padding-top: 15px;
 }
-.blue li{
+.info-list li{
     list-style: none;
     line-height: 30px;
 }
 
 .social i{
     margin-right: 15px;
+}
+.bottom-footer{
+    border-top: 1px solid #8da0e0;
+    padding-top: 40px;
+}
+.logo-footer{
+    display: inline-block;
+}
+.bottom-footer .btn-small{
+    background-color: #8da0e0;
+    color: #fff
 }
